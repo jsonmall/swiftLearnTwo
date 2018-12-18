@@ -1,0 +1,24 @@
+PODS:
+  - FSPagerView (0.8.0)
+  - Kingfisher (4.10.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - FSPagerView
+  - Kingfisher
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FSPagerView
+    - Kingfisher
+    - SnapKit
+
+SPEC CHECKSUMS:
+  FSPagerView: 53d0cd11a233d662ff23e37ed8ee4ecea3cec693
+  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 56de25590d6799d2efed1a8f2b003bc4aebf37c0
+
+COCOAPODS: 1.5.3

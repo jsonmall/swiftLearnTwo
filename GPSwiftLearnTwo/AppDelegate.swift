@@ -22,16 +22,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         self.window?.backgroundColor = UIColor.white
         //静态图引导页
+        self.setStaticGuidePage()
         return true
     }
    
     func setStaticGuidePage()  {
         
-        let imageNameArray : [String] = ["lead01", "lead02", "lead03"]
-        
-//        let guideView = 
+//        let imageNameArray : [String] = ["lead01", "lead02", "lead03"]
+//        
+//        let guideView = HHGuidePageHUD.init(videoURL: NSURL.init(fileURLWithPath: "qidong.mp4"), isHiddenSkipButton: false)
+//        self.window?.rootViewController?.view.addSubview(guideView)
         
     }
+    
+    
     
     func applicationWillResignActive(_ application: UIApplication) {
     
