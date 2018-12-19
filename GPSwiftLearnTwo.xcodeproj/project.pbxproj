@@ -281,6 +281,7 @@
 				FADBC87721C92EB4006FEEFE /* Frameworks */,
 				FADBC87821C92EB4006FEEFE /* Resources */,
 				3A6A74336DBF53BE844BC699 /* [CP] Embed Pods Frameworks */,
+				67B900EA6AF6B62635B4C7B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -437,6 +438,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSwiftLearnTwo/Pods-GPSwiftLearnTwo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B900EA6AF6B62635B4C7B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSwiftLearnTwo/Pods-GPSwiftLearnTwo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D5262D28370DC413F3C5B0AB /* [CP] Check Pods Manifest.lock */ = {

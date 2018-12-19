@@ -5,12 +5,12 @@ use_frameworks!
 def pods
     pod 'SnapKit'
     # pod 'SVProgressHUD'
-    pod 'Kingfisher'
+    pod 'Kingfisher','4.8.0'
     #  pod 'YYKit'
     #tabbar样式
     # pod 'ESTabBarController-swift'
     #banner滚动图片
-    pod 'FSPagerView'
+    pod 'FSPagerView','0.7.1'
     #  pod 'IQKeyboardManagerSwift'
     #  pod 'Moya'
     #  pod 'HandyJSON'
