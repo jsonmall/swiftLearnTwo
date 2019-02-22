@@ -21,20 +21,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
         self.window?.backgroundColor = UIColor.white
-        //静态图引导页
+        // 静态图片引导页
         self.setStaticGuidePage()
+        // 动态图片引导页
+        //self.setDynamicGuidePage()
+        // 视频引导页
+        //self.setVideoGuidePage()
         return true
     }
    
-    func setStaticGuidePage()  {
-        
-//        let imageNameArray : [String] = ["lead01", "lead02", "lead03"]
-//        
-//        let guideView = HHGuidePageHUD.init(videoURL: NSURL.init(fileURLWithPath: "qidong.mp4"), isHiddenSkipButton: false)
-//        self.window?.rootViewController?.view.addSubview(guideView)
-        
+    func setStaticGuidePage() {
+        let imageNameArray: [String] = ["lead01", "lead02", "lead03"]
+        let guideView = HHGuidePageHUD.init(imageNameArray: imageNameArray, isHiddenSkipButton: false)
+        self.window?.rootViewController?.view.addSubview(guideView)
     }
     
+    func setDynamicGuidePage() {
+        let imageNameArray: [String] = ["guideImage6.gif", "guideImage7.gif", "guideImage8.gif"]
+        let guideView = HHGuidePageHUD.init(imageNameArray: imageNameArray, isHiddenSkipButton: false)
+        self.window?.rootViewController?.view.addSubview(guideView)
+    }
+    
+    func setVideoGuidePage() {
+        let urlStr = Bundle.main.path(forResource: "qidong.mp4", ofType: nil)
+        let videoUrl = NSURL.fileURL(withPath: urlStr!)
+        let guideView = HHGuidePageHUD.init(videoURL: videoUrl, isHiddenSkipButton: false)
+        self.window?.rootViewController?.view.addSubview(guideView)
+    }
     
     
     func applicationWillResignActive(_ application: UIApplication) {

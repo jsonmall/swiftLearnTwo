@@ -52,7 +52,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            
+            self.navigationController?.pushViewController(GPPrivider.customBouncesStyle(), animated: true)
             break
         case 1:
             break

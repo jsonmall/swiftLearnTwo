@@ -8,7 +8,7 @@ def pods
     pod 'Kingfisher','4.8.0'
     #  pod 'YYKit'
     #tabbar样式
-    # pod 'ESTabBarController-swift'
+     pod 'ESTabBarController-swift','2.6.2'
     #banner滚动图片
     pod 'FSPagerView','0.7.1'
     #  pod 'IQKeyboardManagerSwift'
