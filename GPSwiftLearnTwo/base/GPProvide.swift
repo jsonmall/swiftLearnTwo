@@ -18,7 +18,7 @@ enum GPPrivider  {
         let v2 = GPFindViewController()
         let v3  = GPBookViewController()
         let v4  =  GPMineViewController()
-        
+    
         v1.tabBarItem = ESTabBarItem.init(GPBasicContenView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
         v2.tabBarItem = ESTabBarItem.init(GPBasicContenView(), title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
         v3.tabBarItem = ESTabBarItem.init(GPBasicContenView(), title: "Favor", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))

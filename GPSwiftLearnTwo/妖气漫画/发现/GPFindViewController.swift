@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class GPFindViewController: UIViewController {
+import SwipeMenuViewController
+class GPFindViewController: SwipeMenuViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -3,24 +3,24 @@ inhibit_all_warnings!
 use_frameworks!
 
 def pods
-    pod 'SnapKit'
-    # pod 'SVProgressHUD'
+    pod 'SnapKit','4.0.0'
+     pod 'SVProgressHUD','2.2.5'
     pod 'Kingfisher','4.8.0'
     #  pod 'YYKit'
     #tabbar样式
      pod 'ESTabBarController-swift','2.6.2'
     #banner滚动图片
     pod 'FSPagerView','0.7.1'
-    #  pod 'IQKeyboardManagerSwift'
-    #  pod 'Moya'
-    #  pod 'HandyJSON'
-    #  pod 'SwiftyJSON'
-    #  pod 'SwiftMessages'
+      pod 'IQKeyboardManagerSwift','6.0.3'
+      pod 'Moya','11.0.2'
+      pod 'HandyJSON','4.1.1'
+      pod 'SwiftyJSON','4.1.0'
+      pod 'SwiftMessages','4.1.4'
     # 分页
-    #  pod 'SwipeMenuViewController'
-    #  pod 'MJRefresh'
+      pod 'SwipeMenuViewController','2.1.0'
+      pod 'MJRefresh','3.1.15'
 
-#  pod 'SkeletonView'
+      pod 'SkeletonView','1.2.0'
 
 end
 
