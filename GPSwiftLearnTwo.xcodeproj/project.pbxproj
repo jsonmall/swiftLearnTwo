@@ -253,6 +253,10 @@
 		E041C5BB221FDAD5008B6CEB /* topic_ground_allList_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E041C4D3221FDAD5008B6CEB /* topic_ground_allList_back@2x.png */; };
 		E041C5BC221FDAD5008B6CEB /* webView_error_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E041C4D4221FDAD5008B6CEB /* webView_error_icon.png */; };
 		E041C5BD221FDC83008B6CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADBC8AB21C933FA006FEEFE /* Assets.xcassets */; };
+		E0570EDE2223E47B008AB341 /* GPRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0570EDD2223E47B008AB341 /* GPRecommendViewController.swift */; };
+		E0570EE02223E494008AB341 /* GPViPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0570EDF2223E494008AB341 /* GPViPViewController.swift */; };
+		E0570EE22223E4A7008AB341 /* GPSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0570EE12223E4A7008AB341 /* GPSubViewController.swift */; };
+		E0570EE42223E4BB008AB341 /* GPRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0570EE32223E4BB008AB341 /* GPRankViewController.swift */; };
 		E0D25A1B221EB5DD004B250C /* GPTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D25A1A221EB5DD004B250C /* GPTodayViewController.swift */; };
 		E0D25A1E221EB63A004B250C /* GPAVGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D25A1D221EB63A004B250C /* GPAVGViewController.swift */; };
 		E0D25A20221EB71B004B250C /* GPFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D25A1F221EB71B004B250C /* GPFindViewController.swift */; };
@@ -540,6 +544,10 @@
 		E041C4D2221FDAD5008B6CEB /* switch_to_signal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_to_signal@2x.png"; sourceTree = "<group>"; };
 		E041C4D3221FDAD5008B6CEB /* topic_ground_allList_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topic_ground_allList_back@2x.png"; sourceTree = "<group>"; };
 		E041C4D4221FDAD5008B6CEB /* webView_error_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webView_error_icon.png; sourceTree = "<group>"; };
+		E0570EDD2223E47B008AB341 /* GPRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPRecommendViewController.swift; sourceTree = "<group>"; };
+		E0570EDF2223E494008AB341 /* GPViPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPViPViewController.swift; sourceTree = "<group>"; };
+		E0570EE12223E4A7008AB341 /* GPSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSubViewController.swift; sourceTree = "<group>"; };
+		E0570EE32223E4BB008AB341 /* GPRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPRankViewController.swift; sourceTree = "<group>"; };
 		E0D25A1A221EB5DD004B250C /* GPTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTodayViewController.swift; sourceTree = "<group>"; };
 		E0D25A1D221EB63A004B250C /* GPAVGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAVGViewController.swift; sourceTree = "<group>"; };
 		E0D25A1F221EB71B004B250C /* GPFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPFindViewController.swift; sourceTree = "<group>"; };
@@ -890,6 +898,38 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		E0570ED92223E42B008AB341 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				E0570EDD2223E47B008AB341 /* GPRecommendViewController.swift */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		E0570EDA2223E433008AB341 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				E0570EDF2223E494008AB341 /* GPViPViewController.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		E0570EDB2223E43C008AB341 /* 订阅 */ = {
+			isa = PBXGroup;
+			children = (
+				E0570EE12223E4A7008AB341 /* GPSubViewController.swift */,
+			);
+			path = "订阅";
+			sourceTree = "<group>";
+		};
+		E0570EDC2223E445008AB341 /* 排行 */ = {
+			isa = PBXGroup;
+			children = (
+				E0570EE32223E4BB008AB341 /* GPRankViewController.swift */,
+			);
+			path = "排行";
+			sourceTree = "<group>";
+		};
 		E0D25A1C221EB624004B250C /* 二次元 */ = {
 			isa = PBXGroup;
 			children = (
@@ -901,6 +941,10 @@
 		E0D25A21221EB778004B250C /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
+				E0570EDC2223E445008AB341 /* 排行 */,
+				E0570EDB2223E43C008AB341 /* 订阅 */,
+				E0570EDA2223E433008AB341 /* VIP */,
+				E0570ED92223E42B008AB341 /* 推荐 */,
 				E0D25A1F221EB71B004B250C /* GPFindViewController.swift */,
 			);
 			path = "发现";
@@ -1483,6 +1527,7 @@
 				E0D25A1B221EB5DD004B250C /* GPTodayViewController.swift in Sources */,
 				E0D25A27221EB7C6004B250C /* GPBookViewController.swift in Sources */,
 				E0D25A56221FC531004B250C /* UINavigationController+YHBackTitle.m in Sources */,
+				E0570EE22223E4A7008AB341 /* GPSubViewController.swift in Sources */,
 				E0D25A51221FC531004B250C /* WRCycleCell.swift in Sources */,
 				E0D25A54221FC531004B250C /* WRNavigationBar.swift in Sources */,
 				E0D25A53221FC531004B250C /* WRProxy.swift in Sources */,
@@ -1490,12 +1535,15 @@
 				E041C3D3221FC5C6008B6CEB /* YYNavigationController.swift in Sources */,
 				E0D25A29221EB7D2004B250C /* GPMineViewController.swift in Sources */,
 				E0D25A20221EB71B004B250C /* GPFindViewController.swift in Sources */,
+				E0570EE42223E4BB008AB341 /* GPRankViewController.swift in Sources */,
 				E0D25A55221FC531004B250C /* UINavigationBar+YHIndicatorImage.m in Sources */,
 				E0D25A1E221EB63A004B250C /* GPAVGViewController.swift in Sources */,
 				FADBC87E21C92EB4006FEEFE /* AppDelegate.swift in Sources */,
 				E041C3E6221FD8BF008B6CEB /* HHGuidePageHUD.swift in Sources */,
+				E0570EDE2223E47B008AB341 /* GPRecommendViewController.swift in Sources */,
 				E0D25A50221FC531004B250C /* WRCustomNavigationBar.swift in Sources */,
 				E041C3D5221FD863008B6CEB /* Const.swift in Sources */,
+				E0570EE02223E494008AB341 /* GPViPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

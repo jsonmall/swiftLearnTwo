@@ -127,6 +127,7 @@ greet(person: "John", day: "Wednesday");
 func greet_1(_ person: String,_ day: String) -> String{
     return "Hello \(person),today is \(day).";
 }
+
 greet_1("John", "Wednesday");
 //4_3 返回值可以是元祖类型
 func calculateStatistics(scores: [Int]) -> (min : Int, max : Int, sum : Int){
