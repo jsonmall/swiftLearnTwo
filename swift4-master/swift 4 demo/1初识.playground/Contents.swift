@@ -258,6 +258,7 @@ class EquilateralTriangle : NamedShape {
             return 3.0 * sideLength;
         }
         set{
+            
             sideLength = newValue / 3.0;
         }
     }
